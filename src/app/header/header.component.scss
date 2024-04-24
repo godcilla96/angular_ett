@@ -1,0 +1,27 @@
+nav {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    li {
+        margin: 0 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color:black;
+        font-weight: bolder;
+    }
+    .current {
+        background-image: linear-gradient(to left, #ffec73, #F5C63c);
+    }
+    }

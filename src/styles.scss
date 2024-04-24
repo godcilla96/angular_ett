@@ -1,4 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-color: pink;
+    background: linear-gradient(#5344A9, #BB5098);
+    height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+main {
+    box-sizing: border-box;
+    margin: 150px 70px 25px 70px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0.3);
+    background-color: #F5C63c;
+    
+    p, h1 {
+        padding: 30px;
+    }
 }
