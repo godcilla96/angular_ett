@@ -1,15 +1,17 @@
 <h1>Konverterare</h1>
 
-<p>Konvertera meter till feet och vice versa:</p>
 
-<div>
+
+<div class = "converter input-row">
+    <p>Meter/feet-konverterare:</p>
     <label for="inputValue1">Ange värde:</label>
     <input type="number" id="inputValue1" [(ngModel)]="inputValue1">
     <select [(ngModel)]="inputUnit1">
         <option value="meter">Meter</option>
         <option value="feet">Feet</option>
     </select>
-
+</div>
+<div class = "converter input-row">
     <label for="outputUnit1">Till enhet:</label>
     <select [(ngModel)]="outputUnit1">
         <option value="feet">Feet</option>
@@ -21,14 +23,18 @@
     <p>Resultat: {{ convertedValue1 }} </p>
 </div>
 
-<div>
+
+
+<div class = "converter input-row">
+    <p>Celsius/Fahrenheit-konverterare:</p>
     <label for="inputValue2">Ange värde:</label>
     <input type="number" id="inputValue2" [(ngModel)]="inputValue2">
     <select [(ngModel)]="inputUnit2">
         <option value="celsius">Celsius</option>
         <option value="fahrenheit">Fahrenheit</option>
     </select>
-
+</div>
+<div class = "converter input-row">
     <label for="outputUnit2">Till enhet:</label>
     <select [(ngModel)]="outputUnit2">
         <option value="fahrenheit">Fahrenheit</option>

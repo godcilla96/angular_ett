@@ -1,0 +1,38 @@
+.converter {
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 30px;
+    padding-right: 30px;
+    p {
+        font-weight: bolder;
+    }
+
+}
+
+input[type="number"], select {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+input[type="number"]:focus, select:focus {
+    border-color: #f47f6b;
+    box-shadow: 0 0 5px #53231b;
+}
+
+
+button {
+    background-color: #f47f6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #5344A9;
+}
