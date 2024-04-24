@@ -30,4 +30,5 @@ export class ConverterComponent {
       this.convertedValue2 = (inputValue - 32) * 5 / 9;
     }
   }
+
 }

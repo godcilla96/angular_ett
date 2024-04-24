@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './gallery.component.scss'
 })
 export class GalleryComponent {
+  
+  jarntorgetImage: string = "assets/images/jarntorget.jpg";
 
 }
