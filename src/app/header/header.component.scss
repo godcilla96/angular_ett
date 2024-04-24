@@ -23,5 +23,8 @@ nav {
     }
     .current {
         background-image: linear-gradient(to left, #ffec73, #F5C63c);
+        background-size: 200% auto;
+        transition: background-size 0.4s ease;
     }
+    
     }
