@@ -1,27 +1,13 @@
-# AngularEtt
+# Angular 1 - DT208G moment 3
+Syftet med denna uppgift är att lära känna ramverket Angular och bygga upp en webbsida med hjälp av detta verktyg.
+Tanken är att bekanta sig med Angulars funktionaliteter.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
+## Utveckling
+För att lösa uppgiften inleddes projektet med att läsa igenom teorin och läsanvisningarna. Därefter initierades ett nytt Angular-projekt och komponenter skapades för de olika sidorna, inklusive startsidan, bildgalleriet och konverteraren.
 
-## Development server
+Routing konfigurerades för att navigera mellan de olika sidorna och säkerställa korrekt funktionalitet. En navigeringsmeny lades till i en header-komponent, som stylades för att passa in i designen av webbapplikationen. Styling för övriga komponenter hanterades också i sina respektive mappar för att hålla koden organiserad och lätt att underhålla.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Under utvecklingen användes läsanvisningar och internetresurser för att implementera kod, komponenter och metoder för att skapa funktionalitet på sidorna.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Slutsatser
+Arbetet med projektet har varit givande och lärorikt. Genom att tillämpa Angular har en djupare förståelse för ramverket och dess möjligheter utvecklats. Att följa best practices och använda Angulars struktur har bidragit till att skapa en välorganiserad och lättförståelig kodbas. Genom projektet har en grundläggande förståelse för Angulars funktionalitet och utvecklingsmetodik stärkts.
